@@ -1,0 +1,65 @@
+@import"_estilos.scss";
+
+$colorPrimary: white;
+@mixin Centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe2{
+  display: flex;
+  background-image: url(../Img/About/Background.png);
+  background-repeat: no-repeat;
+  padding: 95px 0px 95px 0px;
+  color: $colorPrimary;
+}
+
+.correo2{
+  position: relative;
+  left: 120px;
+}
+
+
+.correo2 button{
+  display: block;
+  margin-top: 5px;
+  width: 120px;
+  height: 43px;
+}
+
+.doctores{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.social_2{
+  position: relative;
+  left: 71px;
+  bottom: 20px;
+}
+
+.image_2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 250px 0px 250px;
+}
+
+.anchor{
+  @include Centrado();
+}
+
+.anchor a{
+  color: white;
+  border: solid grey;
+}
+
+.ejemplos{
+  @include Centrado();
+  text-align: center;
+  padding: 200px 0px 50px 0px;
+}
+
+.ejemplos p{
+  margin: 0rem .625rem 0rem 0rem;
+}
